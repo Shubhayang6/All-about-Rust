@@ -2,7 +2,8 @@
 
 ##### 1. Rust shall be compiled first like C/C++ so that the .exe binary generated can be ran even if rust isn't installed.
 > $ rustc <file.rs>
-##### 2. Cargo new command takes the name of the project and build for you the TOML file
+##### 2. Cargo new command takes the name of the project and build for you the TOML file, just run the below command in the root directory:
+> $ cargo new <name_of_project>
 ##### 3. In Rust, variables are immutable by default.
 > let apples = 5; // immutable
 > let mut bananas = 5; // mutable
