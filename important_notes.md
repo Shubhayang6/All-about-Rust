@@ -13,3 +13,7 @@
 > There shall be '.expect' which is error handling for the function.
 ##### 6. You can use any dependencies by adding into cargo.toml file and then running build command.
 > $ cargo build
+##### 7. From [variables/src/main.rs](./variables/src/main.rs) -> Understand the difference between shadowing and mutability.
+> - Shadowing: Variables can be assigned different types.
+> - Mutability: Doesn't allow you to change the type of the variable.
+> - Reference: [Shadowing and Mutability](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
