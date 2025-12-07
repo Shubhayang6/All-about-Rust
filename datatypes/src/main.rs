@@ -46,8 +46,11 @@ fn char_type_scalar() {
 fn main() {
 
     floating_type_scalar();
+
     numeric_ops();
+
     bool_type_scalar();
+    
     char_type_scalar();
     
 }
