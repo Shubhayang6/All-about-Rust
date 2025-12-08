@@ -51,6 +51,7 @@ fn main() {
 
     bool_type_scalar();
     
+    
     char_type_scalar();
     
 }
